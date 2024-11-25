@@ -35,7 +35,7 @@ export const Ul = styled.ul`
     color: #1e3932;
 
     &:hover{
-        color:palevioletred;
+        color: #4ec766;
     }
   }
 `
