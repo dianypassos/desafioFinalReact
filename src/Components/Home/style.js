@@ -93,6 +93,12 @@ export const Copo = styled.img`
     position: absolute;
     top: -70px;
     left: 30px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.9s;
+    }
 `
 
 
