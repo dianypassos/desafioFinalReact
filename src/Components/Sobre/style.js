@@ -23,7 +23,6 @@ export const H4 = styled.h4`
     font-weight: 700;
     font-size: 1.5rem;
     color: #1E3932;
-    margin-bottom: 1%
 `
 
 export const H1 = styled.h1`
@@ -31,7 +30,6 @@ export const H1 = styled.h1`
     font-weight: 400;
     font-size: 4rem;
     color: #1E3932;
-    margin-bottom: 2%;
 `
 
 export const P = styled.p`
@@ -39,7 +37,6 @@ export const P = styled.p`
     font-size: 1.5rem;
     color: #1E3932;
     font-weight: 400;
-    margin-bottom: 2%;
 `
 
 export const Button = styled.button`

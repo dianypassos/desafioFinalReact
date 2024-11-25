@@ -3,10 +3,12 @@ import Header from "./Components/Header/Header"
 import Sobre from "./Components/Sobre/Sobre"
 import Home from "./Components/Home/Home"
 import Novidades from "./Components/Novidades/Novidades"
+import {GlobalStyle} from "./style"
 
 export default function App() {
   return (
     <>
+    <GlobalStyle/>
     <BrowserRouter>
     <Header/>
     <Routes>

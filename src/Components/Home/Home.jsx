@@ -32,10 +32,12 @@ export default function Home() {
     return(
         <MainStyle>
             <ContainerText>
-                <H2>Mais que Café</H2>
-                <H1>Isso é <span>Starbucks</span></H1>
-                <P>A Starbucks oferece uma variedade de cafés de alta qualidade. Alguns dos cafés mais populares incluem o Caffè Americano, o Cappuccino, o Latte Macchiato e o Espresso. Além disso, a Starbucks oferece bebidas quentes e frias, doces diferenciados e sanduíches.</P>
-                <Button>SAIBA MAIS</Button>
+                <div>
+                    <H2>Mais que Café</H2>
+                    <H1>Isso é <span>Starbucks</span></H1>
+                    <P>A Starbucks oferece uma variedade de cafés de alta qualidade. Alguns dos cafés mais populares incluem o Caffè Americano, o Cappuccino, o Latte Macchiato e o Espresso. Além disso, a Starbucks oferece bebidas quentes e frias, doces diferenciados e sanduíches.</P>
+                    <Button>SAIBA MAIS</Button>
+                </div>
                 <Div>
                     <img onClick={selecionarCafe1} src={copinhoLaranja} alt="Starbucks Copo Laranja" />
                     <img onClick={selecionarCafe2} src={copinhoVermelho} alt="Starbucks Copo Vermelho" />

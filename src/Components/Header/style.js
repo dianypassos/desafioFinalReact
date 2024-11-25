@@ -6,21 +6,21 @@ export const Main = styled.header`
     align-items: center;
     text-decoration: none;
     list-style: none;
+    width: 100%;
+    height: 20vh;
 `
 
 export const Img = styled.img`
-    width: 7%;
-    padding-top: 1%;
-    padding-left: 5%;
+    margin-left: 5%;
 `
 
 export const Ul = styled.ul`
     display: flex;
     justify-content: space-around;
-    width: 40vw;
     list-style: none;
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
+    width: 40vw;
 
     a {
     text-decoration: none;

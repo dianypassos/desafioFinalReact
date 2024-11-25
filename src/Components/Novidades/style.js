@@ -5,7 +5,7 @@ export const Section = styled.section`
     justify-content: space-around;
     align-items: center;
     background-color: #1E3932;
-    height: 82.7vh;
+    height: 80vh;
 `
 
 export const Div = styled.div`

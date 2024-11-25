@@ -3,13 +3,13 @@ import styled from "styled-components"
 export const MainStyle = styled.main`
     display: flex;
     align-items: center;
-    height: 54vh;
+    height: 50vh;
 `
 
 export const ContainerText = styled.section`
     display: flex;
     flex-direction: column;
-    margin: 7% 0 0 6%;
+    margin: 5% 0 0 6%;
 `
 
 export const H2 = styled.h2`
