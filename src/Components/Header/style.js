@@ -1,19 +1,11 @@
-import styled, { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: borderbox;
-    text-decoration: none;
-    list-style: none;
-}
-`;
-
-export const Header = styled.header`
+export const Main = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+    list-style: none;
 `
 
 export const Img = styled.img`

@@ -1,13 +1,13 @@
 import {Link} from "react-router-dom"
-import * as S from "./style";
+import logo from "../../assets/images/logo 2.png"
+import {Main, Img, Ul, } from "./style";
 
 export default function Header() {
     return (
-        <S.Header>
-            <S.GlobalStyle/>
-            <S.Img src="/src/assets/images/logo 2.png" alt="logomarca" />
+        <Main>
+            <Img src={logo} alt="logomarca" />
             <nav>
-                <S.Ul>
+                <Ul>
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -17,8 +17,8 @@ export default function Header() {
                     <li>
                         <Link to="/sobre">Sobre</Link>
                     </li>
-                </S.Ul>
+                </Ul>
             </nav>
-        </S.Header>
+        </Main>
     )
 }
