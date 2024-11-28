@@ -39,6 +39,7 @@ export const P = styled.p`
     color: #000000;
     font-size: 1.5rem;
     width: 40vw;
+    margin-bottom: 1%;
 `
 
 export const Button = styled.button`
@@ -64,7 +65,7 @@ export const Button = styled.button`
 
 export const Div = styled.div`
     display: flex;
-    width: 30%;
+    width: 20%;
     gap: 2rem;
     justify-content: end;
     align-self: flex-end;
@@ -85,14 +86,26 @@ export const Div = styled.div`
 
 export const Section = styled.section`
     position: relative;
-    top: 52.9%;
-    right: -22.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14rem;
+    margin-left: 6rem;
+`
+
+export const Fundo = styled.img`
+    position: absolute;
+    top: -10.2rem;
+    left: 230px;
+    width: 37vw;
+    z-index: 1;
 `
 
 export const Copo = styled.img`
     position: absolute;
-    top: -70px;
-    left: 30px;
+    top: -15rem;
+    left: 300px;
+    z-index: 2;
     transition: transform 0.3s ease-in-out;
 
     &:hover{

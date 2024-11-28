@@ -37,6 +37,7 @@ export const P = styled.p`
     font-size: 1.5rem;
     color: #1E3932;
     font-weight: 400;
+    margin-bottom: 1%;
 `
 
 export const Button = styled.button`
