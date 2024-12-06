@@ -73,7 +73,7 @@ export const Div = styled.div`
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin-left: 40%;
     margin-bottom: 30px;
 
     img:hover {
@@ -95,7 +95,7 @@ export const Section = styled.section`
 
 export const Fundo = styled.img`
     position: absolute;
-    top: -10.2rem;
+    top: -9rem;
     left: 230px;
     width: 37vw;
     z-index: 1;
